@@ -1,0 +1,268 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+}
+
+body{
+background-image: url(background.jpg);
+background-size: cover;
+background-attachment: fixed;
+color: aliceblue;
+}
+
+
+header{
+   
+    width: 100%;
+    height: 500px;
+    /* position:fixed; */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    top: 0;
+
+
+
+}
+
+#logo{
+    display: flex;
+    width:360px;
+    position: absolute;
+height: 300px; 
+margin: -440px 0px 0px -160px;
+
+
+} 
+
+
+
+
+nav{
+
+margin: -440px 0px 0px 550px;    
+
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: #caa994;
+  
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    transition: 0.8s;
+    padding: 0 18px;
+  
+    
+    
+
+
+}
+
+nav a:hover{
+    color: #5c402d;
+    text-decoration: underline;
+    text-decoration-color: #caa994;
+    font-size: 30px;
+    transition: 0.8s;
+}
+
+
+#about{
+    
+background: rgba(255, 255, 255, 0.26);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+width: 90%;
+height: 400px;
+margin: -380px 5% ;
+}
+
+#me{
+width: 22%;
+height: 430px;
+margin: -30px 80% ;
+}
+
+.ABOUT{
+margin: -330px 0 0 70px;
+/* padding: 0 0 100px 0; */
+}
+
+.l1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #885f43;
+    
+}
+
+.l2{
+    font-size: 25px;
+    color: #ba9073;
+}
+
+.l3{
+    font-size: 18px;
+    color: #e2d1c5;
+}
+
+
+.main-buttons{
+background-color: rgb(92, 64, 45);
+width: 180px;
+height: 35px;
+color: #cecaca;
+text-align: center;
+font-size: 1.5rem;
+font-weight: bold;
+text-shadow: 1px 1px 1px #000000;
+border: 1px solid #0f2333;
+border-radius: 10px;
+box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+margin: 30px 90px;
+transition: 1.2s;
+
+}
+
+.main-buttons:hover{
+background-color: #cecaca;
+color: #885f43;
+font-size: 1.6rem;
+width: 186px;
+height: 37px;
+box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.6), inset -2px -2px 3px rgba(92, 64, 45, 0.6);
+}
+
+
+
+#skills{
+    background-color: rgba(33, 40, 58, 97%);
+    color: #e2d1c5;
+    width: 95%;
+    height: 15rem;
+    margin: 490px 2.5% 50px;
+    position: absolute;
+    border-radius: 10px 10px;
+    box-shadow: 2px 3px 10px  #caa994;
+    line-height: 150%;
+    
+
+}
+#HeadArticle{
+/* background-color:#1a0f08; */
+/* background-size: 300% ; */
+
+/* border-radius: 10%;
+border: 1px solid #000000;  */
+margin: 56px 2.8% ; 
+font-size:  40px;
+font-weight: 900;
+color: #FFFFFF;
+text-shadow: #885f43 2px 3px 20px ;
+/* justify-content: center; */
+}
+.contener{
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 40px 0px;
+
+
+
+}
+
+section ol {
+    margin: 10px 0px;
+}
+section ol li{
+line-height: 200%;
+}
+
+
+.head-col{
+font-size: 28px;
+font-weight: bold;
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 160px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30% 30% 0% 0%;
+    background-color:#000000;
+    box-shadow: 0px -4px 10px #ba9073;
+    position:absolute;
+    top: 200%;
+}
+
+footer P{
+    color: #ba9073;
+    font-size: 24PX;
+    font-weight: 900;
+    text-align: center;
+    margin: 60px 0px;
+}
+
+
+
+#form{
+    width: 50%;
+   height: 300px;
+   margin: 20% 25%;
+   border-radius: 10%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 2px 4px 30px rgba(253, 163, 90, 0.644);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.66);
+}
+
+.form-container{
+    margin: 0 200px;
+    line-height: 190%;
+  
+}
+
+section div input{
+    display: block;
+    justify-content: center;
+}
+
+section div label{
+    color: #caa994;
+    font-size: 24px;
+}
+
+
+
+#choose {
+    display: flex;
+    justify-content: center;
+  margin: 20px 100px;
+}
+
